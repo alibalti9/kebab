@@ -1,0 +1,159 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  /* color: gainsboro !important; */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.contactBox{
+  display: flex;
+  flex-direction: column;
+  align-items: center !important;
+  width: 100%;
+}
+
+h3{
+  color: white;
+}
+h2{
+  color: white;
+}
+h1{
+  color: white;
+}
+
+p{
+  color: white;
+}
+.homePage{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.menu{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.ab{
+  text-align: start;
+}
+
+.aboutBox{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 20px;
+  width: 90%;
+}
+
+.des{
+  color: whitesmoke;
+  font-size: 11px;
+}
+
+.hea{
+  font-size: 17px;
+}
+.menuHeading{
+  text-align: center !important;
+}
+
+.menuHeadDiv{
+  width: 100%;
+}
+.menuPage{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: start;
+  background-color: #c30010;
+  width: 98.7%;
+  /* width: 200%; */
+  height: 100vh;
+  margin-top: 10px;
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.homePic{
+  height: 533px;
+  width: 98.7%;
+  margin-top: 90px;
+
+}
+
+iframe{
+  margin-left: 50px;
+}
+
+.about{
+  height: 100vh;
+  width: 98.7%;
+  background-color: #c30010;
+  margin-top: 10px;
+  
+}
+
+.contactMain{
+  display: flex;
+  width: 100%;
+}
+
+.langMain{
+  display: flex;
+  height: 100%;
+  flex-direction: row !important;
+  align-items: center;
+}
+
+.buttonN{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin: 5px;
+  margin-left: 20px;
+}
+.buttonN:hover{
+  text-decoration: underline;
+}
+.navBar{
+  /* margin-top: 8px; */
+  width: 100%;
+  height: 80px;
+  background-color: #c30010;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  box-shadow: black 0px 1px 10px 5px;
+  /* background-image: linear-gradient(to bottom , #c30010, white); */
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
